@@ -8,5 +8,6 @@ namespace TechnicalServiceProject.Web.Controllers
         {
             return View();
         }
+
     }
 }
