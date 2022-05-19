@@ -19,4 +19,9 @@
     <ProjectReference Include="..\TechnicalServiceProject.Core\TechnicalServiceProject.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="EntityFramework\" />
+    <Folder Include="Identity\" />
+  </ItemGroup>
+
 </Project>
