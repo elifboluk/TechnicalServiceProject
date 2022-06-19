@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -20,5 +20,10 @@
 
   <ItemGroup>
     <Folder Include="Components\" />
+	<Folder Include="ViewModels\Dashboard\" />
   </ItemGroup>
+	
+	<ItemGroup>
+		<None Include="wwwroot\index.html" />
+	</ItemGroup>
 </Project>
